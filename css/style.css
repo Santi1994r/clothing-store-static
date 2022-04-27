@@ -38,11 +38,13 @@ div form .lupita img {
 .infoContainer .info div .negrita {
   font-size: 2rem;
   padding-top: 3rem;
+  color: #000;
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .infoContainer .info div .suave {
   font-size: 1.3rem;
+  color: #000;
   padding-bottom: 3rem;
 }
 .infoContainer .info div img {
@@ -100,16 +102,20 @@ div form .lupita img {
   color: #fff;
 }
 
+/*aca mathi no entiendo para que necesito crear el archivo colores si invente un nombre como : letragris que no esta en colores e igualmente me lo toma usando map-get. Pero si borro el archivo colores se me descajeta todo.*/
 /*---------------Sobre nosotros-----------------*/
 .row .sobreTit h2 {
   font-size: 2rem;
   font-weight: bold;
+  color: #000;
 }
 .row .sobreParrafo p {
   font-size: 1.2rem;
+  color: gray;
 }
 
 /*valores de width de img*/
+/*aca mathi no entiendo para que necesito crear el archivo colores si invente un nombre como : letragris que no esta en colores e igualmente me lo toma usando map-get. Pero si borro el archivo colores se me descajeta todo.*/
 /*--------------Footer------------*/
 .footer {
   margin-top: 5rem;
