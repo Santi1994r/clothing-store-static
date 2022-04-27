@@ -1,0 +1,16 @@
+/*Suscribete a nuestro newsletter- con clases de bootstrap*/
+/*le doy d-flex y justify-content-center aca porque desde el index no me funciona.*/
+.suscribete {
+    background-color: #000;
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    div {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+}

@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*retoque al tamaño del logo que agrege al nav*/
+.widthLogo a img {
+    width: 10rem;
+    border-radius: 50%;
+}
+
+/*retoque al tamaño de la lupita que agregue al boton de enviar*/
+.lupita img {
+    width: 1.5rem;
+}
+
+/*agregue un borde al inicio, etc del mismo color que envuelve la lupa de enviar*/
+.header {
+    border-radius: .5rem;
+    margin: .5rem;
+    font-size: 1.2rem;
+}
+
+/*retoco la altura del carrousel*/
+.altura div img {
+    height: 43rem;
+}
+
+/*info abajo del carrousel*/
+.infoContainer {
+    display: flex;
+    justify-content: center;
+}
+.infoContainer div div img {
+    width: 5rem;
+}
+.info {
+    display: flex;
+    align-items: center;
+}
+.info div img {
+    width: 1rem;
+    margin: 1rem;
+}
+
+.negrita {
+    font-size: 2rem;
+    padding-top: 3rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.suave {
+    font-size: 1.3rem;
+    padding-bottom: 3rem;
+}
+
+/*--------------cards para productos del catalogo------------*/
+.h5Centrado {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.color a {
+    color: black;
+    text-decoration: none;
+}
+.margin {
+    margin: .3rem;
+}
+/*--------propiedades para hacer una transformacion en las img------------*/
+.zoom{
+    overflow: hidden;
+    transition: all 500ms ease;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+}
+.zoom img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease;
+}
+.zoom img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/*Suscribete a nuestro newsletter- con clases de bootstrap*/
+/*le doy d-flex y justify-content-center aca porque desde el index no me funciona.*/
+.suscribete{
+    background-color: #000;
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.suscribete .row div{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/*---------------Sobre nosotros-----------------*/
+
+.sobreTit h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.sobreParrafo p{
+    font-size:1.2rem;
+}
+
+/*--------------Footer------------*/
+.footer {
+    margin-top: 5rem;
+    background-color: #000;
+}
+.footer .row .red img{
+    width: 3rem;
+}
+.footer .row div p{
+    color: #fff;
+}
+
+.footer .row .creador {
+    font-size: 1.2em;
+}
+.footer .row div a:hover{
+    text-decoration: none;
+}
+
+
+/*-----------Formulario con bootstrap--------------*/
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.columna h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/*--------------------Catalogo--------------------*/
+.contac{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 3rem;
+}
+.anchoFotos div{
+    display: flex;
+    justify-content: center;
+}
+.anchoFotos div div{
+    width: 90%;
+    margin-top: 2rem;
+}
+.talleycompra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.talleycompra a input{
+    padding: .8rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+}
+.talleycompra select {
+    margin: 1rem;
+    padding: .5rem;
+    
+}
+.separador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--------------------------PAGINA DE CONTACTOS-------------------------------------*/
+.contacContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contac {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 2rem 0 6rem 0;
+}
+
+.datos li {
+    display: flex;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+.subtA {
+    font-size: 2.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.mapa {
+    width: 50%;
+}
+
+/*----------------------ENVIOS---------------------------*/
+.bgColor{
+    background-color: #000;
+    padding: 2rem;
+}
+.envios {
+    text-align: center;
+    font-size: 60px;
+    padding: .5em;
+    margin: 1em;
+}
+
+.contCarteles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%
+}
+
+.carteles {
+    font-size: 100px;
+    background-color: #85C1E9;
+    display: inline-block;
+    height: 130px;
+    border: 10px double #1F618D;
+    margin: 50px 30px;
+    box-shadow: 20px 20px 10px 10px #17202A;
+}
+.letras{
+    padding-top:1em;
+    font-weight: bold;
+}
+
+article p {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+/*-------------------media query-movil-------------------*/
+
+@media only screen and (max-width:599px) {
+    .contac{
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .infoContainer .info{
+        display: flex;
+        padding: 1rem;
+    }
+    .talleycompra{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*trabajo sobre el logo y el header para ponerlos en columna*/
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+    .altura div img {
+        height: 25rem;
+    }
+    /*Trabajo sobre el footer para que quede todo en columna*/
+    .footer .row .red a{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+    .footer .row .red{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*Mapa de google*/
+    .mapa {
+        width: 90%;
+    }
+    
+    .cajaMedidas img{
+        width: 80%;
+    }
+    
+}

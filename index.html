@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href=".//img/logo.png">
+    <!-- -------------------link de AOS----------------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ---------------link para bootstrap--------------------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- ------------------link para vicular con css-------------------- -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Urbanos Clothing</title>
+</head>
+
+<body>
+    <!-- ---------------header-------------------------------------- -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <li class="nav-item widthLogo">
+                    <a class="nav-link my-3" href="index.html"><img src=".//img/logo.png" alt="logo"></a>
+                </li>
+                <a class="navbar-brand btn-outline-success header" href="index.html">Urbanos Clothing</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success header" aria-current="page"
+                                href="#sobreNosotros">Sobre
+                                Nosotros</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle btn-outline-success header" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Catálogo
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="catalogo.html">Camperas</a></li>
+                                <li><a class="dropdown-item" href="catalogo.html">Camisas</a></li>
+                                <li><a class="dropdown-item" href="catalogo.html">Remeras</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="catalogo.html">Catalogo</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success header" aria-current="page"
+                                href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success header" aria-current="page"
+                                href="envios.html">Envios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-success header" aria-current="page"
+                                href="preguntas.html">Preguntas</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="¿Que estas buscando?"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success lupita" type="submit"><img src=".//img/lupita.png"
+                                alt="lupa"></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- -----------------------carrousel--------------------------------- -->
+
+
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+
+            </div>
+            <div class="carousel-inner altura">
+                <div class="carousel-item active">
+                    <img src=".//img/localFuera.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src=".//img/localDentro4.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src=".//img/localDentro2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src=".//img/localDentro3.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src=".//img/localDentro5.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src=".//img/localDentro7.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- ---------------informacion----------------------------- -->
+    <section class="infoContainer">
+        <div class="info">
+            <div>
+                <img src=".//img/camion.png" alt="camion">
+            </div>
+            <div>
+                <div class="negrita">Envio Gratis</div>
+                <div class="suave">En compras superiores a $8000</div>
+            </div>
+        </div>
+        <div class="info">
+            <div>
+                <img src=".//img/tarjeta.png" alt="camion">
+            </div>
+            <div>
+                <div class="negrita">Paga en cuotas</div>
+                <div class="suave">Mira las promos con tu tarjeta</div>
+            </div>
+        </div>
+        <div class="info">
+            <div>
+                <img src=".//img/devolver.png" alt="camion">
+            </div>
+            <div>
+                <div class="negrita">¿Queres cambiarlo?</div>
+                <div class="suave">Cambio gratis, hasta 7 dias</div>
+            </div>
+        </div>
+    </section>
+    <!------------------Cards para imagenes--------------->
+    <section>
+        <div class="row row-cols-1 row-cols-md-3 g-4 margin">
+            <div class="col">
+                <div class="card h-100 color" data-aos="flip-right">
+                    <a href="catalogo.html"><img src=".//img/campera1.png" class="card-img-top" alt="campera">
+
+                        <div class="card-body">
+                            <h5 class="card-title h5Centrado">Camperas</h5>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 color" data-aos="flip-right">
+                <a href="catalogo.html"><img src=".//img/remera.png" class="card-img-top" alt="remera">
+                    <div class="card-body">
+                        <h5 class="card-title h5Centrado">Remeras</h5>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 color" data-aos="flip-right">
+                <a href="catalogo.html"><img src=".//img/camisa.png" class="card-img-top" alt="camisa">
+                    <div class="card-body">
+                        <h5 class="card-title h5Centrado">Camisas</h5>
+                </a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ------Suscribete al newsletter------ -->
+    <section>
+        <div class="container suscribete my-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="row">
+                <div class="col text-center">
+                    ¡Enterate de todo!
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    Suscribete a nuestro newsletter y recibí ofertas exclusivas
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex flex-column align-items-center">
+
+                    <input class="p-1 m-2" type="email" placeholder="Ingrese su email">
+
+                    <input class="btn btn-info widthSubmit my-2 " type="submit" required value="Suscribete">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobreNosotros">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col sobreTit">
+                    <h2>Sobre Nosotros</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="offset-1 col-10 sobreParrafo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolore aspernatur animi,
+                        nobis vel
+                        assumenda reiciendis tenetur rem, dolor iure optio quam facilis. Expedita inventore, atque dolor
+                        eaque optio
+                        sunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio pariatur molestiae aperiam
+                        aliquid dolor
+                        obcaecati praesentium impedit. Assumenda quod dignissimos, et ex minus saepe ad odit, veniam
+                        voluptates vero
+                        sit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------------footer-------------------------------------- -->
+    <footer>
+        <div class="container p-4 bg-dark footer">
+            <div class="row">
+                <div class="col text-center">
+                    <p>Copyright:Todos los derechos reservados</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <p>Seguinos en nuestras redes</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center red">
+                    <a href="https://www.facebook.com/" target="blank"><img class="mx-2" src=".//img/facebook.png"
+                            alt="facebook">Facebook</a>
+                    <a href="https://www.instagram.com/" target="blank"><img class="mx-2" src=".//img/instagram.png"
+                            alt="instagram">Instagram</a>
+                    <a href="https://www.linkedin.com/" target="blank"><img class="mx-2" src=".//img/linkedin.png"
+                            alt="linkedin">Linkedin</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center my-3">
+                    <p>Esta página fue creada por: Santiago Ruiz</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- ---------------scrip para AOS------------------------ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- ------------------scrip para bootstrap------------------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

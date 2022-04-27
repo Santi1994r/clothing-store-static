@@ -1,0 +1,21 @@
+@import "../base/listas";
+/*--------------Footer------------*/
+
+.footer {
+    margin-top: 5rem;
+    background-color: #000;
+
+    img {
+        width: nth($ancho, 2);
+    }
+
+    p {
+        color: #fff;
+    }
+
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "desafio8-sass-ruiz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santi1994r/urbanos-sass-ruiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santi1994r/urbanos-sass-ruiz/issues"
+  },
+  "homepage": "https://github.com/Santi1994r/urbanos-sass-ruiz#readme",
+  "description": ""
+}
