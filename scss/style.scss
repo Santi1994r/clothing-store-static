@@ -9,6 +9,7 @@
 @import "./componentes/footer";
 /*BASE*/
 @import "./base/listas";
+@import "./base/mixin";
 /*Solo pase de css a scss la pagina de index, que fue lo que pedian en el desafio, que se lo hagamos a un solo archivo*/
 /*y no use mas variables o listas porque no veo la necesidad de usar muchas al tener que hacerlo en una sola pagina, ya se de que manera usarlas*/
 
