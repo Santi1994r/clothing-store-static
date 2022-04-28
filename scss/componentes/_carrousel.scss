@@ -1,4 +1,14 @@
+@import "../base/mapas";
+
 /*retoco la altura del carrousel*/
+.urbanos{
+    text-align: center;
+    font-size: 4rem;
+    color: map-get($map: $color, $key: "letrablanca");
+    background-color: #000;
+    padding: 1rem;
+}
+
 .altura{
     div{
         img{
