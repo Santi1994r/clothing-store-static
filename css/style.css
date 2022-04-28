@@ -20,7 +20,6 @@ div form .lupita img {
   width: 1.5rem;
 }
 
-/*aca mathi no entiendo para que necesito crear el archivo colores si invente un nombre como : letragris que no esta en colores e igualmente me lo toma usando map-get. Pero si borro el archivo colores se me descajeta todo.*/
 /*retoco la altura del carrousel*/
 .urbanos {
   text-align: center;
@@ -64,6 +63,13 @@ div form .lupita img {
 .zoom img {
   width: 100%;
   height: 100%;
+}
+
+.subtituloPrinc {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 4rem;
 }
 
 .margin {
@@ -111,7 +117,6 @@ div form .lupita img {
   color: #fff;
 }
 
-/*aca mathi no entiendo para que necesito crear el archivo colores si invente un nombre como : letragris que no esta en colores e igualmente me lo toma usando map-get. Pero si borro el archivo colores se me descajeta todo.*/
 /*---------------Sobre nosotros-----------------*/
 .row .sobreTit h3 {
   font-size: 2rem;
@@ -124,7 +129,6 @@ div form .lupita img {
 }
 
 /*valores de width de img*/
-/*aca mathi no entiendo para que necesito crear el archivo colores si invente un nombre como : letragris que no esta en colores e igualmente me lo toma usando map-get. Pero si borro el archivo colores se me descajeta todo.*/
 /*--------------Footer------------*/
 .footer {
   margin-top: 5rem;
