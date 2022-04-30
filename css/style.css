@@ -20,9 +20,14 @@ div form .lupita img {
   width: 1.5rem;
 }
 
-/*retoco la altura del carrousel*/
-.urbanos {
+/*retoco el titulo de la pagina y la altura del carrousel*/
+.cont-urbanos {
+  display: flex;
+  justify-content: center;
+}
+.cont-urbanos .urbanos {
   text-align: center;
+  border-radius: 2rem;
   font-size: 4rem;
   color: #fff;
   background-color: #000;

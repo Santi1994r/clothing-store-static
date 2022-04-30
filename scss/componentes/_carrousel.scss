@@ -1,20 +1,24 @@
 @import "../base/mapas";
 
-/*retoco la altura del carrousel*/
-.urbanos{
-    text-align: center;
-    font-size: 4rem;
-    color: map-get($map: $color, $key: "letrablanca");
-    background-color: #000;
-    padding: 1rem;
+/*retoco el titulo de la pagina y la altura del carrousel*/
+.cont-urbanos {
+    display: flex;
+    justify-content: center;
+
+    .urbanos {
+        text-align: center;
+        border-radius: 2rem;
+        font-size: 4rem;
+        color: map-get($map: $color, $key: "letrablanca");
+        background-color: #000;
+        padding: 1rem;
+    }
 }
 
-.altura{
-    div{
-        img{
+.altura {
+    div {
+        img {
             height: 43rem;
         }
     }
 }
-
-
