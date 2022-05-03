@@ -1,0 +1,33 @@
+/*--------------------------PAGINA DE CONTACTOS-------------------------------------*/
+.contacContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .contac {
+        font-size: 4rem;
+        font-weight: bold;
+        margin: 2rem 0 6rem 0;
+    }
+
+    .datos {
+        
+        li {
+            display: flex;
+            padding: .5rem;
+            font-size: 1.5rem;
+        }
+
+    }
+
+    .subtA {
+        font-size: 2.5rem;
+        margin-top: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .mapa {
+        width: 50%;
+    }
+}

@@ -1,0 +1,14 @@
+/*-----------Formulario con bootstrap--------------*/
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+
+.columna h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}

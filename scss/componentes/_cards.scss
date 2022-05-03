@@ -13,9 +13,11 @@
 
 .margin {
     margin: .3rem;
+    
 
     div {
-        .color {
+        .color {    
+            box-shadow: 5px 5px 5px 5px black;
             a {
                 color: black;
                 text-decoration: none;
@@ -47,3 +49,4 @@
 .zoom img:hover {
     @include agrando;
 }
+

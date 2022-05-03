@@ -1,0 +1,52 @@
+
+/*-------------------media query-movil-------------------*/
+
+@media only screen and (max-width:599px) {
+    .contac{
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .infoContainer .info{
+        display: flex;
+        padding: 1rem;
+    }
+    .talleycompra{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*trabajo sobre el logo y el header para ponerlos en columna*/
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+    .altura div img {
+        height: 25rem;
+    }
+    /*Trabajo sobre el footer para que quede todo en columna*/
+    .footer .row .red a{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+    .footer .row .red{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*tabla de medidas*/
+    .cajaMedidas img{
+        width: 100%;
+    }
+    
+}

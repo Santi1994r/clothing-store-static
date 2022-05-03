@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href=".//img/logo.png">
     <!-- ----------------Etiqueta meta description----------------- -->
-    <meta name="description" content="nos dedicamos a vender ropa para hombres, ropa de buena calidad y con estilo, tenemos camisas importadas y remeras 100% algodon de la mejor calidad. Contamos tambien con local en el shopping palermo.">
+    <meta name="description"
+        content="nos dedicamos a vender ropa para hombres, ropa de buena calidad y con estilo, tenemos camisas importadas y remeras 100% algodon de la mejor calidad. Contamos tambien con local en el shopping palermo.">
     <!-- ----------------Etiqueta meta keywords----------------- -->
-    <meta name="keywords" content="ropa para hombres, ropa hombres, ropa, camisas, camisas para hombre, remeras, remera para hombre, campera, campera para hombre, ropa de calidad, zapatos, zapatos para hombre, borcegos para hombre, jean, jean para hombre, sweter, sweater, sweater para hombre.">
+    <meta name="keywords"
+        content="ropa para hombres, ropa hombres, ropa, camisas, camisas para hombre, remeras, remera para hombre, campera, campera para hombre, ropa de calidad, zapatos, zapatos para hombre, borcegos para hombre, jean, jean para hombre, sweter, sweater, sweater para hombre.">
+        <!-- -------------------link de AOS----------------------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- -------------link de bootstrap---------------- -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -33,7 +37,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-success header" aria-current="page" href="index.html#sobreNosotros">Sobre
+                            <a class="nav-link btn-outline-success header" aria-current="page"
+                                href="index.html#sobreNosotros">Sobre
                                 Nosotros</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -54,14 +59,16 @@
                         <li class="nav-item">
                             <a class="nav-link btn-outline-success header" aria-current="page"
                                 href="contacto.html">Contacto</a>
-                        </li><li class="nav-item">
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link btn-outline-success header" aria-current="page"
                                 href="envios.html">Envios</a>
-                        </li><li class="nav-item">
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link btn-outline-success header" aria-current="page"
                                 href="preguntas.html">Preguntas</a>
                         </li>
-                        
+
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="¿Que estas buscando?"
@@ -82,22 +89,23 @@
         </ul>
         <h3 class="subtA">Como llegar</h3>
         <div class="container">
-            <div class="row d-flex justify-content-center">
-                <iframe class="mapa"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10091.818975628292!2d-64.49241985212068!3d-31.089557022920623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d82540a7563cd%3A0x63c72e7d55a0ee1e!2sLa%20Falda%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1647008919454!5m2!1ses-419!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="row ">
+                <div class="offset-1 col-10 d-flex justify-content-center">
+                    <iframe class="mapa w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10091.818975628292!2d-64.49241985212068!3d-31.089557022920623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d82540a7563cd%3A0x63c72e7d55a0ee1e!2sLa%20Falda%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1647008919454!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
         </div>
     </section>
     <!-- ---------------------Formulario con bootstraps-------------------- -->
     <section>
-
         <div class="container">
             <form class="row g-3 needs-validation columna" id="formulario" novalidate>
                 <h2>Formulario</h2>
                 <div class="col-md-4 position-relative">
                     <label for="validationTooltip01" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Ingrese su nombre"
+                    <input data-aos="fade-right" type="text" class="form-control" id="validationTooltip01" placeholder="Ingrese su nombre"
                         required>
                     <div class="valid-tooltip">
                         Looks good!
@@ -166,7 +174,7 @@
     </section>
     <!-- -------------------------comienzo de footer-------------------------- -->
     <footer>
-        <div class="container p-4 bg-dark footer" >
+        <div class="container p-4 bg-dark footer">
             <div class="row">
                 <div class="col text-center">
                     <p>Copyright:Todos los derechos reservados</p>
@@ -196,7 +204,11 @@
         </div>
     </footer>
 
-
+    <!-- ---------------scrip para AOS------------------------ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- ------------------scrip para bootstrap------------------------ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
