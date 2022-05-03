@@ -197,29 +197,30 @@ div form .lupita img {
   padding: 0.5rem;
 }
 
-/*--------------------------PAGINA DE CONTACTOS-------------------------------------*/
-.contacContainer {
+/*-------------PAGINA DE CONTACTOS------------*/
+.contWapp {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-.contacContainer .contac {
-  font-size: 4rem;
-  font-weight: bold;
-  margin: 2rem 0 6rem 0;
+.contWapp .wapp {
+  width: 3rem;
+  margin-right: 0.5rem;
 }
-.contacContainer .datos li {
-  display: flex;
-  padding: 0.5rem;
-  font-size: 1.5rem;
+.contWapp p {
+  font-size: 1.1rem;
 }
-.contacContainer .subtA {
+
+.subtA {
   font-size: 2.5rem;
+  text-align: center;
   margin-top: 3.5rem;
   margin-bottom: 2rem;
 }
-.contacContainer .mapa {
-  width: 50%;
+
+.contMapa {
+  display: flex;
+  justify-content: center;
 }
 
 /*----------------------ENVIOS---------------------------*/
