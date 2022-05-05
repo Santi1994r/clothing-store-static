@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href=".//img/logo.png">
     <!-- ----------------Etiqueta meta description----------------- -->
-    <meta name="description" content="nos dedicamos a vender ropa para hombres, ropa de buena calidad y con estilo, tenemos camisas importadas y remeras 100% algodon de la mejor calidad. Contamos tambien con local en el shopping palermo.">
+    <meta name="description"
+        content="nos dedicamos a vender ropa para hombres, ropa de buena calidad y con estilo, tenemos camisas importadas y remeras 100% algodon de la mejor calidad. Contamos tambien con local en el shopping palermo.">
     <!-- ----------------Etiqueta meta keywords----------------- -->
-    <meta name="keywords" content="ropa para hombres, ropa hombres, ropa, camisas, camisas para hombre, remeras, remera para hombre, campera, campera para hombre, ropa de calidad, zapatos, zapatos para hombre, borcegos para hombre, jean, jean para hombre, sweter, sweater, sweater para hombre.">
+    <meta name="keywords"
+        content="ropa para hombres, ropa hombres, ropa, camisas, camisas para hombre, remeras, remera para hombre, campera, campera para hombre, ropa de calidad, zapatos, zapatos para hombre, borcegos para hombre, jean, jean para hombre, sweter, sweater, sweater para hombre.">
     <!-- -------------------link de AOS----------------------------- -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ---------------link para bootstrap--------------------------------- -->
@@ -27,7 +29,9 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <li class="nav-item widthLogo">
-                    <a class="nav-link my-3" href="index.html"><img src=".//img/logo.png" alt="logo"></a>
+                    <a data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" class="nav-link my-3" href="index.html"><img src=".//img/logo.png" alt="logo"></a>
                 </li>
                 <a class="navbar-brand btn-outline-success header" href="index.html">Urbanos Clothing</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -75,8 +79,9 @@
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="¿Que estas buscando?"
                             aria-label="Search">
-                        <button class="btn btn-outline-success lupita" type="submit"><img src=".//img/lupita.png"
-                                alt="buscador"></button>
+                        <a data-aos="flip-left" class="btn btn-outline-success lupita" href="contacto.html#formulario" role="button"><img
+                                src=".//img/lupita.png" alt="buscador">
+                        </a>
                     </form>
                 </div>
             </div>
@@ -140,15 +145,16 @@
             </div>
         </div>
     </section>
-    
+
     <!------------------Algunos productos/ en cards--------------->
-    
+
     <section>
         <h2 class="subtituloPrinc">ropa para hombres</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4 margin">
             <div class="col">
                 <div class="card h-100 color" data-aos="flip-right">
-                    <a href="catalogo.html"><img src=".//img/campera1.png" class="card-img-top" alt="campera para hombre">
+                    <a href="catalogo.html"><img src=".//img/campera1.png" class="card-img-top"
+                            alt="campera para hombre">
 
                         <div class="card-body">
                             <h2 class="card-title h5Centrado">Camperas</h2>
@@ -224,10 +230,8 @@
             <div class="row">
                 <div class="col d-flex flex-column align-items-center">
 
-                    <input class="p-1 m-2" type="email" placeholder="Ingrese su email">
-
-                    <input class="btn btn-info widthSubmit my-2 " type="submit" required value="Suscribete">
-
+                    <input class="p-1 m-2" required type="email" placeholder="Ingrese su email">
+                    <a class="btn btn-primary" href="contacto.html" role="button">Suscribete</a>
                 </div>
             </div>
         </div>
