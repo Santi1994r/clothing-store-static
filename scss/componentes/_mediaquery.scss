@@ -48,5 +48,17 @@
     .cajaMedidas img{
         width: 100%;
     }
+
+    /*trabajo sobre cada grupo de 4 cards c/u para que en mobile se pongan todos en la misma columna*/
+    .mobile{
+        display: flex;
+        flex-direction: column;       
+        align-items: center;        
+    }
+    .mobileColumn{
+        width: 80%;
+        
+    }
+    
     
 }

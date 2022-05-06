@@ -182,21 +182,25 @@ div form .lupita img {
   margin: 3rem;
 }
 
+/*
 .talleycompra {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.talleycompra a input {
-  padding: 0.8rem;
-  border-radius: 3rem;
-  font-size: 1.5rem;
-}
-.talleycompra select {
-  margin: 1rem;
-  padding: 0.5rem;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        input{
+            padding: .8rem;
+        border-radius: 3rem;
+        font-size: 1.5rem;
+        }
+    }
+    select{
+        margin: 1rem;
+        padding: .5rem;
+    }
 
+}
+*/
 /*-------------PAGINA DE CONTACTOS------------*/
 .contWapp {
   display: flex;
@@ -282,6 +286,17 @@ div form .lupita img {
   /*tabla de medidas*/
   .cajaMedidas img {
     width: 100%;
+  }
+
+  /*trabajo sobre cada grupo de 4 cards c/u para que en mobile se pongan todos en la misma columna*/
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobileColumn {
+    width: 80%;
   }
 }
 /*BASE*/

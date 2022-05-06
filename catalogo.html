@@ -27,9 +27,8 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <li class="nav-item widthLogo">
-                    <a data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" class="nav-link" href="index.html"><img src=".//img/logo.png" alt="logo"></a>
+                    <a data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="nav-link"
+                        href="index.html"><img src=".//img/logo.png" alt="logo"></a>
                 </li>
                 <a class="navbar-brand btn-outline-success header" href="index.html">Urbanos Clothing</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -85,273 +84,164 @@
         </nav>
     </header>
     <h1 class="contac">Catálogo</h1>
-    <!------------------Cards para imagenes de index--------------->
-    <section>
-        <div class="row row-cols-1 row-cols-md-3 g-4 margin">
-            <div class="col">
-                <div class="card h-100 color zoom">
-                    <a href="catalogo.html"><img src=".//img/campera1.png" class="card-img-top"
-                            alt="campera para hombre">
 
+    <!------------------(1)Primer grupo de Cards para catalogo --------------->
+    <section>   
+        <div class="container">
+            <div class="row row-cols-1 row-cols-3 g-4 mobile">
+                <div class="col-3 mobileColumn">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="./img/campera2.png" class="card-img-top" alt="campera para hombre invierno">
                         <div class="card-body">
-                            <h2 class="card-title h5Centrado">Camperas</h2>
-                    </a>
-                    <p class="card-text">Parka con forrería y capucha desmontable bordada en 3D. Es la típica
-                        campera que no pasa de moda, ideal para este invierno. Compuesta 100% por Poliéster.
-                    </p>
-                    <p>
-                        Tratamiento: Limpieza profesional. No lavar con agua. No planchar.
-                    </p>
-                    <div class="talleycompra">
-                        <select class="form-select w-50" id="validationTooltip04" required>
-                            <option selected disabled value="">Talle</option>
-                            <option>S</option>
-                            <option>M</option>
-                            <option>L</option>
-                            <option>XL</option>
-                        </select>
-                        <a href="contacto.html#formulario" data-aos="flip-left">
-                            <input class="btn-info" type="submit" value="Comprar">
-                        </a>
+                            <h5 class="card-title text-center">campera para hombre invierno</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">campera para hombre invierno
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------------- -->
+                        </div>
                     </div>
                 </div>
-
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100 color zoom">
-                <a href="catalogo.html"><img src=".//img/remera.png" class="card-img-top" alt="remera para hombre">
-                    <div class="card-body">
-                        <h2 class="card-title h5Centrado">Remeras</h2>
-                </a>
-                <p class="card-text">Parka con forrería y capucha desmontable bordada en 3D. Es la típica
-                    campera que no pasa de moda, ideal para este invierno. Compuesta 100% por Poliéster.
-                </p>
-                <p>
-                    Tratamiento: Limpieza profesional. No lavar con agua. No planchar.
-                </p>
-                <div class="talleycompra">
-                    <select class="form-select w-50" id="validationTooltip04" required>
-                        <option selected disabled value="">Talle</option>
-                        <option>S</option>
-                        <option>M</option>
-                        <option>L</option>
-                        <option>XL</option>
-                    </select>
-                    <a href="contacto.html#formulario" data-aos="flip-left">
-                        <input class="btn-info" type="submit" value="Comprar">
-                    </a>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="col">
-            <div class="card h-100 color zoom">
-                <a href="catalogo.html"><img src=".//img/camisa.png" class="card-img-top" alt="camisa para hombre">
-                    <div class="card-body">
-                        <h2 class="card-title h5Centrado">Camisas</h2>
-                </a>
-                <p class="card-text">Parka con forrería y capucha desmontable bordada en 3D. Es la típica
-                    campera que no pasa de moda, ideal para este invierno. Compuesta 100% por Poliéster.
-                </p>
-                <p>
-                    Tratamiento: Limpieza profesional. No lavar con agua. No planchar.
-                </p>
-                <div class="talleycompra">
-                    <select class="form-select w-50" id="validationTooltip04" required>
-                        <option selected disabled value="">Talle</option>
-                        <option>S</option>
-                        <option>M</option>
-                        <option>L</option>
-                        <option>XL</option>
-                    </select>
-                    <a href="contacto.html#formulario" data-aos="flip-left">
-                        <input class="btn-info" type="submit" value="Comprar">
-                    </a>
-                </div>
-            </div>
-        </div>
-        </div>
-        </div>
-    </section>
-    <!-- ----------------------------2da tanda de cards----------------- -->
-    <section>
-        <div class="row row-cols-1 row-cols-md-3 g-4 margin">
-            <div class="col">
-                <div class="card h-100 color zoom">
-                    <a href="catalogo.html"><img src=".//img/campera1.png" class="card-img-top"
-                            alt="campera para hombre">
-
+                <div class="col-3 mobileColumn">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="./img/campera1.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h3 class="card-title h5Centrado">Camperas</h3>
-                    </a>
-                    <p class="card-text">Parka con forrería y capucha desmontable bordada en 3D. Es la típica
-                        campera que no pasa de moda, ideal para este invierno. Compuesta 100% por Poliéster.
-                    </p>
-                    <p>
-                        Tratamiento: Limpieza profesional. No lavar con agua. No planchar.
-                    </p>
-                    <div class="talleycompra">
-                        <select class="form-select w-50" id="validationTooltip04" required>
-                            <option selected disabled value="">Talle</option>
-                            <option>S</option>
-                            <option>M</option>
-                            <option>L</option>
-                            <option>XL</option>
-                        </select>
-                        <a href="contacto.html#formulario" data-aos="flip-left">
-                            <input class="btn-info" type="submit" value="Comprar">
-                        </a>
+                            <h5 class="card-title text-center">Card title</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------- -->
+                        </div>
                     </div>
                 </div>
-
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100 color zoom">
-                <a href="catalogo.html"><img src=".//img/remera.png" class="card-img-top" alt="remera para hombre">
-                    <div class="card-body">
-                        <h3 class="card-title h5Centrado">Remeras</h3>
-                </a>
-                <p class="card-text">Parka con forrería y capucha desmontable bordada en 3D. Es la típica
-                    campera que no pasa de moda, ideal para este invierno. Compuesta 100% por Poliéster.
-                </p>
-                <p>
-                    Tratamiento: Limpieza profesional. No lavar con agua. No planchar.
-                </p>
-                <div class="talleycompra">
-                    <select class="form-select w-50" id="validationTooltip04" required>
-                        <option selected disabled value="">Talle</option>
-                        <option>S</option>
-                        <option>M</option>
-                        <option>L</option>
-                        <option>XL</option>
-                    </select>
-                    <a href="contacto.html#formulario" data-aos="flip-left">
-                        <input class="btn-info" type="submit" value="Comprar">
-                    </a>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="col">
-            <div class="card h-100 color zoom">
-                <a href="catalogo.html"><img src=".//img/camisa.png" class="card-img-top" alt="camisa para hombre">
-                    <div class="card-body">
-                        <h3 class="card-title h5Centrado">Camisas</h3>
-                </a>
-                <p class="card-text">Parka con forrería y capucha desmontable bordada en 3D. Es la típica
-                    campera que no pasa de moda, ideal para este invierno. Compuesta 100% por Poliéster.
-                </p>
-                <p>
-                    Tratamiento: Limpieza profesional. No lavar con agua. No planchar.
-                </p>
-                <div class="talleycompra">
-                    <select class="form-select w-50" id="validationTooltip04" required>
-                        <option selected disabled value="">Talle</option>
-                        <option>S</option>
-                        <option>M</option>
-                        <option>L</option>
-                        <option>XL</option>
-                    </select>
-                    <a href="contacto.html#formulario" data-aos="flip-left">
-                        <input class="btn-info" type="submit" value="Comprar">
-                    </a>
-                </div>
-            </div>
-        </div>
-        </div>
-        </div>
-    </section>
-    <!-- ---------------------3er tanda de cards----------------------- -->
-    <section>
-        <div class="row row-cols-1 row-cols-md-3 g-4 margin">
-            <div class="col">
-                <div class="card h-100 color zoom">
-                    <a href="catalogo.html"><img src=".//img/campera1.png" class="card-img-top"
-                            alt="campera para hombre">
-
+                <div class="col-3 mobileColumn">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="./img/remera.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h4 class="card-title h5Centrado">Camperas</h4>
-                    </a>
-                    <p class="card-text">Parka con forrería y capucha desmontable bordada en 3D. Es la típica
-                        campera que no pasa de moda, ideal para este invierno. Compuesta 100% por Poliéster.
-                    </p>
-                    <p>
-                        Tratamiento: Limpieza profesional. No lavar con agua. No planchar.
-                    </p>
-                    <div class="talleycompra">
-                        <select class="form-select w-50" id="validationTooltip04" required>
-                            <option selected disabled value="">Talle</option>
-                            <option>S</option>
-                            <option>M</option>
-                            <option>L</option>
-                            <option>XL</option>
-                        </select>
-                        <a href="contacto.html#formulario" data-aos="flip-left">
-                            <input class="btn-info" type="submit" value="Comprar">
-                        </a>
+                            <h5 class="card-title text-center">Card title</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------- -->
+                        </div>
                     </div>
                 </div>
-
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100 color zoom">
-                <a href="catalogo.html"><img src=".//img/remera.png" class="card-img-top" alt="remera para hombre">
-                    <div class="card-body">
-                        <h4 class="card-title h5Centrado">Remeras</h4>
-                </a>
-                <p class="card-text">Parka con forrería y capucha desmontable bordada en 3D. Es la típica
-                    campera que no pasa de moda, ideal para este invierno. Compuesta 100% por Poliéster.
-                </p>
-                <p>
-                    Tratamiento: Limpieza profesional. No lavar con agua. No planchar.
-                </p>
-                <div class="talleycompra">
-                    <select class="form-select w-50" id="validationTooltip04" required>
-                        <option selected disabled value="">Talle</option>
-                        <option>S</option>
-                        <option>M</option>
-                        <option>L</option>
-                        <option>XL</option>
-                    </select>
-                    <a href="contacto.html#formulario" data-aos="flip-left">
-                        <input class="btn-info" type="submit" value="Comprar">
-                    </a>
+                <div class="col-3 mobileColumn">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="./img/camisa.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------- -->
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
-        <div class="col">
-            <div class="card h-100 color zoom">
-                <a href="catalogo.html"><img src=".//img/camisa.png" class="card-img-top" alt="camisa para hombre">
-                    <div class="card-body">
-                        <h4 class="card-title h5Centrado">Camisas</h4>
-                </a>
-                <p class="card-text">Parka con forrería y capucha desmontable bordada en 3D. Es la típica
-                    campera que no pasa de moda, ideal para este invierno. Compuesta 100% por Poliéster.
-                </p>
-                <p>
-                    Tratamiento: Limpieza profesional. No lavar con agua. No planchar.
-                </p>
-                <div class="talleycompra">
-                    <select class="form-select w-50" id="validationTooltip04" required>
-                        <option selected disabled value="">Talle</option>
-                        <option>S</option>
-                        <option>M</option>
-                        <option>L</option>
-                        <option>XL</option>
-                    </select>
-                    <a href="contacto.html#formulario" data-aos="flip-left">
-                        <input class="btn-info" type="submit" value="Comprar">
-                    </a>
-                </div>
-            </div>
-        </div>
-        </div>
         </div>
     </section>
+    <!-- ---------fin (1)de primer grupo de 4 cards--------- -->
+    
 
     <!-- ---------------------------footer-------------------------------------- -->
     <footer>
