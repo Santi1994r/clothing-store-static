@@ -13,11 +13,12 @@
 
 .margin {
     margin: .3rem;
-    
+
 
     div {
-        .color {    
+        .color {
             box-shadow: 5px 5px 5px 5px black;
+
             a {
                 color: black;
                 text-decoration: none;
@@ -50,3 +51,10 @@
     @include agrando;
 }
 
+.whCard {
+    height: 31rem;
+}
+/*la altura que le doy en height es igual a h-75, se lo pongo con clase porque todavia no encuentro el error de que no me centra las card en mobile*/
+.hCard{
+    height: 25rem;
+}

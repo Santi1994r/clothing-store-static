@@ -117,6 +117,15 @@ div form .lupita img {
   cursor: pointer;
 }
 
+.whCard {
+  height: 31rem;
+}
+
+/*la altura que le doy en height es igual a h-75, se lo pongo con clase porque todavia no encuentro el error de que no me centra las card en mobile*/
+.hCard {
+  height: 25rem;
+}
+
 /*Suscribete a nuestro newsletter- con clases de bootstrap*/
 /*le doy d-flex y justify-content-center aca porque desde el index no me funciona.*/
 .suscribete {
@@ -296,7 +305,7 @@ div form .lupita img {
   }
 
   .mobileColumn {
-    width: 80%;
+    width: 100%;
   }
 }
 /*BASE*/

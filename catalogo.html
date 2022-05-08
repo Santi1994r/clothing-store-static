@@ -83,20 +83,121 @@
             </div>
         </nav>
     </header>
+    <!-- ---------fin de header-------- -->
+    <!-- -------titulo----- -->
     <h1 class="contac">Catálogo</h1>
 
     <!------------------(1)Primer grupo de Cards para catalogo --------------->
-    <section>   
+    <section>
         <div class="container">
             <div class="row row-cols-1 row-cols-3 g-4 mobile">
                 <div class="col-3 mobileColumn">
-                    <div class="card" style="width: 15rem; height: 30rem;">
-                        <img src="./img/campera2.png" class="card-img-top" alt="campera para hombre invierno">
+                    <div class="card whCard">
+                        <img src="./img/campera2.png" class="card-img-top h-75" alt="campera para hombre invierno">
                         <div class="card-body">
                             <h5 class="card-title text-center">campera para hombre invierno</h5>
                             <a href="#" class="btn btn-primary mx-2">Comprar</a>
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">campera para hombre invierno
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- -carrousel dentro de modal- -->
+                                            <div id="carouselExampleDark" class="carousel carousel-dark slide"
+                                                data-bs-ride="carousel">
+                                                <div class="carousel-indicators">
+                                                    <button type="button" data-bs-target="#carouselExampleDark"
+                                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                                        aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleDark"
+                                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#carouselExampleDark"
+                                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                </div>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active" data-bs-interval="10000">
+                                                        <img src="./img/camperaverde.png" class="d-block w-100"
+                                                            alt="campera para hombre invierno">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                            <h5 class="text-white">campera para invierno verde</h5>
+                                                            <p class="text-white">Echa con la mejor tela, muy abrigada y
+                                                                rompeviento.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item" data-bs-interval="2000">
+                                                        <img src="./img/camperanegra.png" class="d-block"
+                                                            alt="campera para hombre invierno">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                            <h5 class="text-danger">campera para invierno negra</h5>
+                                                            <p class="text-danger">>Echa con la mejor tela, muy abrigada
+                                                                y rompeviento.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="./img/camperaatras.png" class="d-block"
+                                                            alt="campera para hombre invierno">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                            <h5 class="text-info">campera para invierno verde</h5>
+                                                            <p class="text-info">Echa con la mejor tela, muy abrigada y
+                                                                rompeviento.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                            <!-- -fin de carrousel dentro de modal- -->
+                                        </div>
+                                        <div class="modal-footer">
+                                            <!-- ----------selector de talle---- -->
+                                            <select class="form-select mx-2 w-25" id="validationTooltip04" required>
+                                                <option selected disabled value="">Talle</option>
+                                                <option>S</option>
+                                                <option>M</option>
+                                                <option>L</option>
+                                                <option>XL</option>
+                                            </select>
+                                            <!-- -----------fin de selector de talles----------- -->
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------------- -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard" >
+                        <img src="./img/campera1.png" class="card-img-top h-75" alt="campera para hombre invierno">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">campera para hombre invierno</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">
                                 Ver mas
                             </button>
@@ -123,18 +224,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- --------fin modal-------------- -->
+                            <!-- --------fin modal-------- -->
                         </div>
                     </div>
                 </div>
                 <div class="col-3 mobileColumn">
-                    <div class="card" style="width: 15rem; height: 30rem;">
-                        <img src="./img/campera1.png" class="card-img-top" alt="...">
+                    <div class="card whCard">
+                        <img src="./img/campera-amarilla-2.jpg" class="card-img-top hCard" alt="campera para hombre">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Card title</h5>
+                            <h5 class="card-title text-center">campera de hombre rompeviento</h5>
                             <a href="#" class="btn btn-primary mx-2">Comprar</a>
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">
                                 Ver mas
                             </button>
@@ -165,50 +266,13 @@
                     </div>
                 </div>
                 <div class="col-3 mobileColumn">
-                    <div class="card" style="width: 15rem; height: 30rem;">
-                        <img src="./img/remera.png" class="card-img-top" alt="...">
+                    <div class="card whCard">
+                        <img src="./img/campera-montagne.png" class="card-img-top hCard" alt="campera para hombre">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Card title</h5>
+                            <h5 class="card-title text-center">campera para hombre rompeviento</h5>
                             <a href="#" class="btn btn-primary mx-2">Comprar</a>
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                Ver mas
-                            </button>
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            ...
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- --------fin modal-------- -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3 mobileColumn">
-                    <div class="card" style="width: 15rem; height: 30rem;">
-                        <img src="./img/camisa.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Card title</h5>
-                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">
                                 Ver mas
                             </button>
@@ -241,7 +305,478 @@
         </div>
     </section>
     <!-- ---------fin (1)de primer grupo de 4 cards--------- -->
-    
+
+    <!------------------(2)segundo grupo de Cards para catalogo --------------->
+    <section>
+        <div class="container my-4">
+            <div class="row row-cols-1 row-cols-3 g-4 mobile">
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard">
+                        <img src="./img/campera2.png" class="card-img-top h-75" alt="campera para hombre invierno">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">campera para hombre invierno</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">campera para hombre invierno
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------------- -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard">
+                        <img src="./img/campera1.png" class="card-img-top h-75" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------- -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard">
+                        <img src="./img/remera.png" class="card-img-top h-75" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------- -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard">
+                        <img src="./img/camisa.png" class="card-img-top h-75" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------- -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------fin (2)de segundo grupo de 4 cards--------- -->
+
+    <!------------------(3)tercer grupo de Cards para catalogo --------------->
+    <section>
+        <div class="container my-4">
+            <div class="row row-cols-1 row-cols-3 g-4 mobile">
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard">
+                        <img src="./img/campera2.png" class="card-img-top h-75" alt="campera para hombre invierno">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">campera para hombre invierno</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">campera para hombre invierno
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------------- -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard">
+                        <img src="./img/campera1.png" class="card-img-top h-75" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------- -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard">
+                        <img src="./img/remera.png" class="card-img-top h-75" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------- -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard">
+                        <img src="./img/camisa.png" class="card-img-top h-75" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------- -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------fin (3)de tercer grupo de 4 cards--------- -->
+
+    <!------------------(4)cuarto grupo de Cards para catalogo --------------->
+    <section>
+        <div class="container my-4">
+            <div class="row row-cols-1 row-cols-3 g-4 mobile">
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard">
+                        <img src="./img/campera2.png" class="card-img-top h-75" alt="campera para hombre invierno">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">campera para hombre invierno</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">campera para hombre invierno
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------------- -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard">
+                        <img src="./img/campera1.png" class="card-img-top h-75" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------- -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard">
+                        <img src="./img/remera.png" class="card-img-top h-75" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------- -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mobileColumn">
+                    <div class="card whCard">
+                        <img src="./img/camisa.png" class="card-img-top h-75" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Card title</h5>
+                            <a href="#" class="btn btn-primary mx-2">Comprar</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Ver mas
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------fin modal-------- -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------fin (4)de cuarto grupo de 4 cards--------- -->
+
 
     <!-- ---------------------------footer-------------------------------------- -->
     <footer>
