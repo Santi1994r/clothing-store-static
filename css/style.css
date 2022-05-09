@@ -100,30 +100,23 @@ div form .lupita img {
   font-weight: bold;
 }
 
-/*Esto no lo paso a scss porque es de otro archivo html y en la consigna me piden que solo trabaje sobre un archivo*/
 /*--------propiedades para hacer una transformacion en las img------------*/
 .zoom {
   overflow: hidden;
   transition: all 500ms ease;
   box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.5);
 }
-
 .zoom img {
   transition: all 500ms ease;
 }
-
 .zoom img:hover {
   transform: scale(1.25);
   cursor: pointer;
 }
 
+/*--altura total de las cards del catalogo--*/
 .whCard {
   height: 31rem;
-}
-
-/*la altura que le doy en height es igual a h-75, se lo pongo con clase porque todavia no encuentro el error de que no me centra las card en mobile*/
-.hCard {
-  height: 25rem;
 }
 
 /*Suscribete a nuestro newsletter- con clases de bootstrap*/
@@ -191,25 +184,6 @@ div form .lupita img {
   margin: 3rem;
 }
 
-/*
-.talleycompra {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    a{
-        input{
-            padding: .8rem;
-        border-radius: 3rem;
-        font-size: 1.5rem;
-        }
-    }
-    select{
-        margin: 1rem;
-        padding: .5rem;
-    }
-
-}
-*/
 /*-------------PAGINA DE CONTACTOS------------*/
 .contWapp {
   display: flex;
@@ -240,6 +214,53 @@ div form .lupita img {
 .envios {
   font-size: 2rem;
   text-align: center;
+}
+
+.stretch-card > .card {
+  width: 100%;
+  min-width: 100%;
+}
+
+body {
+  background-color: #f9f9fa;
+}
+
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+@media (max-width: 991.98px) {
+  .padding {
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .padding {
+    padding: 1rem;
+  }
+}
+.padding {
+  padding: 3rem;
+}
+
+.card .card-title {
+  color: #000000;
+  margin-bottom: 0.625rem;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.card .card-description {
+  margin-bottom: 0.875rem;
+  font-weight: 400;
+  color: #76838f;
+}
+
+.mainimage {
+  width: 100% !important;
 }
 
 /*-------------------media query-movil-------------------*/
@@ -306,6 +327,11 @@ div form .lupita img {
 
   .mobileColumn {
     width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .noComputer {
+    display: none;
   }
 }
 /*BASE*/

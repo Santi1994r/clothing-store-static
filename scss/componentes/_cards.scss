@@ -34,27 +34,22 @@
 }
 
 
-/*Esto no lo paso a scss porque es de otro archivo html y en la consigna me piden que solo trabaje sobre un archivo*/
 /*--------propiedades para hacer una transformacion en las img------------*/
 .zoom {
     overflow: hidden;
     transition: all 500ms ease;
     box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.50);
-}
 
-.zoom img {
-    transition: all 500ms ease;
-    @extend %anchoCompleto;
-}
+    img {
+        transition: all 500ms ease;
+        @extend %anchoCompleto;
 
-.zoom img:hover {
-    @include agrando;
+        &:hover {
+            @include agrando;
+        }
+    }
 }
-
+/*--altura total de las cards del catalogo--*/
 .whCard {
     height: 31rem;
-}
-/*la altura que le doy en height es igual a h-75, se lo pongo con clase porque todavia no encuentro el error de que no me centra las card en mobile*/
-.hCard{
-    height: 25rem;
 }
