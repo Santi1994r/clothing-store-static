@@ -31,9 +31,10 @@ div form .lupita img {
 }
 .cont-urbanos .urbanos {
   text-align: center;
+  font-family: "Smooch", cursive;
   border-radius: 2rem;
   border: 1px solid #fff;
-  font-size: 4rem;
+  font-size: 5.5rem;
   color: #fff;
   background-color: #000;
   padding: 1rem;
@@ -179,6 +180,7 @@ div form .lupita img {
 .contac {
   text-align: center;
   font-size: 4rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   padding: 1rem;
   margin: 3rem;

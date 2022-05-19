@@ -7,9 +7,10 @@
 
     .urbanos {
         text-align: center;
+        font-family: 'Smooch', cursive;
         border-radius: 2rem;
         border: 1px solid #fff;
-        font-size: 4rem;
+        font-size: 5.5rem;
         color: map-get($map: $color, $key: "letrablanca");
         background-color: #000;
         padding: 1rem;
