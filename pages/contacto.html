@@ -102,7 +102,7 @@
         <div class="row">
             <div class="col contWapp">
                 <img class="wapp" src="../img/whatsapp.png" alt="whatsapp">
-                <p>Whatsapp: 1165086316</p>
+                <p>Whatsapp: 11xxxx6316</p>
             </div>
         </div>
         <div class="row">
@@ -123,11 +123,11 @@
     <!-- ---------------------Formulario con bootstrap-------------------- -->
     <section>
         <div class="container">
-            <form class="row g-3 needs-validation columna" id="formulario" novalidate>
+            <form action="../php/form.php" method="POST" class="row g-3 needs-validation columna" id="formulario" novalidate>
                 <h2>Formulario</h2>
                 <div class="col-md-4 position-relative">
                     <label for="validationTooltip01" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="validationTooltip01" placeholder="Ingrese su nombre"
+                    <input type="text" name="name" class="form-control" id="validationTooltip01" placeholder="Ingrese su nombre"
                         required>
                     <div class="valid-tooltip">
                         Looks good!
@@ -135,7 +135,7 @@
                 </div>
                 <div class="col-md-4 position-relative">
                     <label for="validationTooltip02" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" id="validationTooltip02" placeholder="Ingrese su apellido"
+                    <input type="text" name="surname" class="form-control" id="validationTooltip02" placeholder="Ingrese su apellido"
                         required>
                     <div class="valid-tooltip">
                         Looks good!
@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-md-4 position-relative">
                     <label for="validationTooltip05" class="form-label">Telefono</label>
-                    <input type="number" class="form-control" id="validationTooltip05" required>
+                    <input type="number" name="phone" class="form-control" id="validationTooltip05" required>
                     <div class="invalid-tooltip">
                         Please provide a valid zip.
                     </div>
@@ -152,7 +152,7 @@
                     <label for="validationTooltipUsername" class="form-label">Email</label>
                     <div class="input-group has-validation">
                         <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-                        <input type="text" class="form-control" id="validationTooltipUsername"
+                        <input type="text" name="email" class="form-control" id="validationTooltipUsername"
                             aria-describedby="validationTooltipUsernamePrepend" required>
                         <div class="invalid-tooltip">
                             Please choose a unique and valid username.
@@ -170,7 +170,7 @@
                 </div>
                 <div class="col-md-3 position-relative">
                     <label for="validationTooltip04" class="form-label">localidad</label>
-                    <select class="form-select" id="validationTooltip04" required>
+                    <select class="form-select" name="location" id="validationTooltip04" required>
                         <option selected disabled value="">Elije</option>
                         <option>Cruz del eje</option>
                         <option>San Marcos</option>

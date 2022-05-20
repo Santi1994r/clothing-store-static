@@ -145,6 +145,9 @@ div form .lupita img {
   font-size: 1.2rem;
   color: gray;
 }
+.row .sobreParrafo p .autor {
+  color: red;
+}
 
 /*valores de width de img*/
 /*--------------Footer------------*/
