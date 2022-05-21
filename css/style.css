@@ -189,6 +189,10 @@ div form .lupita img {
   margin: 3rem;
 }
 
+.letra {
+  font-size: 1.3rem;
+}
+
 /*-------------PAGINA DE CONTACTOS------------*/
 .contWapp {
   display: flex;
