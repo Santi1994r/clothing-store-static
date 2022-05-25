@@ -13,7 +13,7 @@ $para = "santiagoruiz9416@gmail.com";
 $asunto = "Este email fue enviado desde Urbanos Clothing";
 
 //Funcion
-mail($para, $asunto, utf8_decode($nombre, $apellido, $mail, $telefono, $provincia, $localidad));   
+mail($para, $asunto, utf8_decode($telefono));   
 //Funcion para reedireccionar al usuario una ves enviado sus datos por el formulario
 header("location:exito.html");
 
