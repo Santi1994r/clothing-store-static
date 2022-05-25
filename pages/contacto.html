@@ -126,7 +126,7 @@
             <form action="../php/form.php" method="POST" class="row g-3 needs-validation columna" id="formulario" novalidate>
                 <h2>Formulario</h2>
                 <div class="col-md-4 position-relative">
-                    <label for="validationTooltip01" class="form-label">Nombre</label>
+                    <label for="name" class="form-label">Nombre</label>
                     <input type="text" name="name" class="form-control" id="validationTooltip01" placeholder="Ingrese su nombre"
                         required>
                     <div class="valid-tooltip">
@@ -134,7 +134,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 position-relative">
-                    <label for="validationTooltip02" class="form-label">Apellido</label>
+                    <label for="surname" class="form-label">Apellido</label>
                     <input type="text" name="surname" class="form-control" id="validationTooltip02" placeholder="Ingrese su apellido"
                         required>
                     <div class="valid-tooltip">
@@ -142,14 +142,14 @@
                     </div>
                 </div>
                 <div class="col-md-4 position-relative">
-                    <label for="validationTooltip05" class="form-label">Telefono</label>
+                    <label for="phone" class="form-label">Telefono</label>
                     <input type="number" name="phone" class="form-control" id="validationTooltip05" required>
                     <div class="invalid-tooltip">
                         Please provide a valid zip.
                     </div>
                 </div>
                 <div class="col-md-4 position-relative">
-                    <label for="validationTooltipUsername" class="form-label">Email</label>
+                    <label for="email" class="form-label">Email</label>
                     <div class="input-group has-validation">
                         <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
                         <input type="text" name="email" class="form-control" id="validationTooltipUsername"
@@ -161,15 +161,15 @@
                 </div>
                 <!-- --cambio en la cantidad de col-md-6 a -4 como esta en nombre y apellido- -->
                 <div class="col-md-4 position-relative">
-                    <label for="validationTooltip02" class="form-label">Provincia</label>
-                    <input type="text" class="form-control" id="validationTooltip02" placeholder="Ingrese su provincia"
+                    <label for="province" class="form-label">Provincia</label>
+                    <input type="text" name="province" class="form-control" id="validationTooltip02" placeholder="Ingrese su provincia"
                         required>
                     <div class="invalid-tooltip">
                         Please provide a valid city.
                     </div>
                 </div>
                 <div class="col-md-3 position-relative">
-                    <label for="validationTooltip04" class="form-label">localidad</label>
+                    <label for="location" class="form-label">localidad</label>
                     <select class="form-select" name="location" id="validationTooltip04" required>
                         <option selected disabled value="">Elije</option>
                         <option>Cruz del eje</option>
